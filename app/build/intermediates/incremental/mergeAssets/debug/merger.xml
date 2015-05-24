@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\JAVA\AndroidDev\HttpRequest\app\src\main\assets"><file name="fonts/DroidSansArabic.ttf" path="E:\JAVA\AndroidDev\HttpRequest\app\src\main\assets\fonts\DroidSansArabic.ttf"/><file name="fonts/DroidSansFallback.ttf" path="E:\JAVA\AndroidDev\HttpRequest\app\src\main\assets\fonts\DroidSansFallback.ttf"/></source></dataSet><dataSet config="debug"><source path="E:\JAVA\AndroidDev\HttpRequest\app\src\debug\assets"/></dataSet></merger>

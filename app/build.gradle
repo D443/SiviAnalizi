@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.hamdyghanem.httprequest"
+        minSdkVersion 4
+        targetSdkVersion 4
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+}
+
+dependencies {
+    compile files('libs/achartengine-1.1.0.jar')
+}

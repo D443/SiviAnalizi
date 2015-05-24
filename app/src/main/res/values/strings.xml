@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Liquid Analysis Result</string>
+    <string name="hello"></string>
+    <string name="Button01">Send</string>
+    <string name="Button02">Receive</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_graph">graph</string>
+    <string name="title_activity_data_records">DataRecords</string>
+    <string name="title_activity_weekly_list">WeeklyList</string>
+    <string name="title_activity_daily_records">DailyRecords</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hamdyghanem.httprequest.MainMenu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Now:"
+        android:id="@+id/textViewNow"
+        android:layout_alignTop="@+id/tvNowValue"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H : 0 , Ph : 0"
+        android:id="@+id/tvNowValue"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textViewNow" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tvNowValue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp">
+
+        <ListView
+            android:id="@+id/lvMenu"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/list_divider"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/list_row_selector"
+            android:background="#ffffffff"
+            android:drawSelectorOnTop="false" />
+    </LinearLayout>
+</RelativeLayout>

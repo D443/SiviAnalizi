@@ -1,0 +1,2 @@
+E:\JAVA\AndroidDev\HttpRequest\app\build\intermediates\classes\debug
+E:\JAVA\AndroidDev\HttpRequest\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0-6c714bcf6a483076beb5a05970412efd521456b0.jar

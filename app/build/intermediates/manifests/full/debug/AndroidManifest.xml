@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hamdyghanem.httprequest"
+    android:versionCode="8"
+    android:versionName="1.8" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="4" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.hamdyghanem.httprequest.MainMenu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.achartengine.GraphicalActivity" >
+        </activity>
+        <activity
+            android:name="com.hamdyghanem.httprequest.DataRecords"
+            android:label="@string/title_activity_data_records" >
+        </activity>
+        <activity
+            android:name="com.hamdyghanem.httprequest.WeeklyList"
+            android:label="@string/title_activity_weekly_list" >
+        </activity>
+        <activity
+            android:name="com.hamdyghanem.httprequest.DailyRecords"
+            android:label="@string/title_activity_daily_records" >
+        </activity>
+    </application>
+
+</manifest>

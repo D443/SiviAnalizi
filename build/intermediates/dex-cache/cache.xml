@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\JAVA\AndroidDev\HttpRequest\app\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="E:\JAVA\AndroidDev\HttpRequest\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0-6c714bcf6a483076beb5a05970412efd521456b0.jar" />
+    </item>
+
+</items>
